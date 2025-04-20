@@ -3,11 +3,15 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@font-face{
+    font-family:"b yekan";
+    url("../../css/font-awesome/webfonts/BYekan.ttf") format("TrueType");
+}
 body {
     overflow-x: hidden;
     font-size: 16px; /* تنظیم اندازه فونت پایه */
     line-height: 1.5;
+    font-family:"b yekan" , sans-serif;
 }
 
 p {
