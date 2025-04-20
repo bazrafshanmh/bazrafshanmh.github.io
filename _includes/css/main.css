@@ -457,8 +457,10 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+
+    /* For other-videos-bootstrap */
 }
-header {
+/* header {
     position: relative;
     background-color: black;
     height: 75vh;
@@ -496,13 +498,13 @@ header {
     background-color: black;
     opacity: 0.4;
     z-index: 1;
-  }
+  } */
   
   /* Media Query for devices withi coarse pointers and no hover functionality */
   
   /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
   
-  @media (pointer: coarse) and (hover: none) {
+  /* @media (pointer: coarse) and (hover: none) {
     header {
       background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
     }
@@ -510,4 +512,4 @@ header {
     header video {
       display: none;
     }
-  }
+  } */
