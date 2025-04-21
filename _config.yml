@@ -32,10 +32,10 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Allame Helli 2 Students
+  location: Ne'emat Zade, Helli2
   social: Around the Web
-  credits: Credits
+  credits: 2025 helli2 students, all rights reserved
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -52,8 +52,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Allame Helli2
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
@@ -69,3 +68,4 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+

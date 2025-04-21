@@ -3,11 +3,15 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@font-face{
+    font-family:"b yekan";
+    src:url("../../css/font-awesome/webfonts/BYekan.ttf") format("TrueType");
+}
 body {
     overflow-x: hidden;
     font-size: 16px; /* تنظیم اندازه فونت پایه */
     line-height: 1.5;
+    font-family:"b yekan" , sans-serif;
 }
 
 p {
@@ -34,7 +38,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif,"b yekan";
     font-weight: 700;
 }
 
@@ -102,7 +106,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif,"b yekan";
     font-size: 2rem; /* استفاده از rem برای مقیاس پذیری */
     font-weight: 700;
 }
@@ -129,7 +133,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif,"b yekan";
     font-weight: 700;
 }
 
