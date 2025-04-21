@@ -8,6 +8,8 @@ body {
     overflow-x: hidden;
     font-size: 16px; /* تنظیم اندازه فونت پایه */
     line-height: 1.5;
+    font-family: Yekan, sans-serif;
+
 }
 
 p {
