@@ -1,5 +1,5 @@
 ---
 layout: other_videos
 title: Other Videos
-permalink: /other_vidoes/
+permalink: /other_videos/
 ---
