@@ -55,7 +55,6 @@
     .N-navbar {
       background-color: #2c3e50;
       border: none;
-      height: 8rem;
     }
 
     .N-navbar-header {
@@ -69,7 +68,6 @@
       border: none;
       font-size: 300%;
       position: absolute;
-      left: 55rem;
       top: 50%;
       transform: translateY(-50%);
     }
@@ -97,9 +95,7 @@
 
     /* استایل‌های responsive */
     @media (max-width: 768px) {
-      .N-navbar {
-        height: 6rem;
-      }
+
       .N-navbar-toggle {
         font-size: 150%;
         left: 15rem;
@@ -127,7 +123,7 @@
   <nav class="N-navbar N-navbar-default N-navbar-fixed-top">
     <div class="container">
       <div class="N-navbar-header">
-        <button type="button" class="btn btn-default N-navbar-toggle" onclick="toggleMenu()">
+        <button type="button"  class="btn btn-default N-navbar-toggle" style="right:0%;" onclick="toggleMenu()">
           <i class="fa-solid fa-bars"></i> <!-- تغییر از glyphicon به font-awesome -->
         </button>
         <a class="N-navbar-brand text-center" href="#page-top">فانوس</a>
