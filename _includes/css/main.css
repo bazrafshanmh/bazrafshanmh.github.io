@@ -8,7 +8,6 @@ body {
     overflow-x: hidden;
     font-size: 16px; /* تنظیم اندازه فونت پایه */
     line-height: 1.5;
-    font-family: Yekan, sans-serif;
 
 }
 
@@ -36,7 +35,6 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
