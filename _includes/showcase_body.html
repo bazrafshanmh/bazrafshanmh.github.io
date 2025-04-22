@@ -1,0 +1,18 @@
+  <div class="slider">
+    <div class="slide active">به فانوس خوش آمدید</div>
+    <div class="slide">اینجا چراغی برای دیدن روشن می‌شود</div>
+    <div class="slide">با ما همراه باشید برای نوری تازه</div>
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll(".slide");
+    let current = 0;
+
+    function showNextSlide() {
+      slides[current].classList.remove("active");
+      current = (current + 1) % slides.length;
+      slides[current].classList.add("active");
+    }
+
+    setInterval(showNextSlide, 4000); // هر ۴ ثانیه عوض میشه
+  </script>
